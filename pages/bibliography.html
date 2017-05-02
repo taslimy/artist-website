@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Biblography - Jacques-Louis David</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,600,700" rel="stylesheet"> 
+     <link href="../global.css" type="text/css" rel="stylesheet">
+    <link href="../bootstrap.css" type="text/css" rel="stylesheet">
+</head>
+
+<body style="overflow:noscroll">
+
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                <a href="../index.html">JACQUES-LOUIS DAVID</a>
+                </li>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/about.html">About</a>
+                </li>
+                <li>
+                    <a href="../pages/impact.html">Cultural Impact</a>
+                </li>
+                 <li>
+                    <a href="../pages/paintings.html">Paintings</a>
+                </li>
+                <li>
+                    <a  class="active" href="../pages/bibliography.html">Bibliography</a>
+                </li>
+              
+              
+ <!-- searh bar doesn't work xd... -->                  
+<form>
+	<span><input type="text" class="search square" class="form-group" placeholder="Search . . . . . ."></span>
+</form>
+          
+            </ul>
+             </div>
+        
+        <!-- /#sidebar-wrapper -->
+<div id="wrapper">
+        <header class="hidden-md hidden-lg">
+  <button class="hamburger">&#x2630;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu hidden-md hidden-lg">
+  <ul>
+    <a href="./index.html"><li>HOME</li></a>
+    <a href="../pages/about.html"><li>ABOUT</li></a>
+    <a href="../pages/impact.html"><li>CULTURAL IMPACT</li></a>
+    <a href="../pages/paintings.html"><li>PAINTINGS</li></a>
+    <a href="../pages/bibliography.html"><li>BIBLIOGRAPHY</li></a>
+  </ul>
+         </div>
+        <!-- Page Content -->
+        <div id="container">
+        <div id="content">
+            <div class="gg">
+            BIBLIOGRAPHY
+            </div>  
+            <div class="gg2">
+            "SUMMARY OF WHAT I DID"
+                <hr class="style1">
+             </div>        
+
+         <div class="bio">
+             CREDITS
+             </div>
+                <p>
+                When I decided to make this spec site for <strong><a href="https://en.wikipedia.org/wiki/Jacques-Louis_David">Jacques-Louis David</a></strong> there was a lot of thought that went into it. I experimented a lot with <strong><a href="https://coolors.co/453425-0B090C-D99F71-4A151D-79191B">Keeping a strict color palette, </a></strong> using the <strong><a href="http://getbootstrap.com/">Bootstrap 3 Framework,</a></strong> and experimenting with mobile responsiveness. Mobile responsiveness was a pain because I’ve never actually tried to implement it within a working site before. So I’m proud I was able to achieve responsiveness on this spec site. The most experiment page was my <strong><a href="paintings.html"> Paintings page</a></strong> because I experimented with some <strong><a href="http://maketea.co.uk/2013/12/16/smooth-text-overlays-with-css-transforms.html">cool text overlays</a></strong> that would hover information about the painting when your mouse moves over the image. But this didn't go as planned because it would break in other browsers and I never did <strong><a href="https://www.sitepoint.com/the-7-cross-browser-testing-tools-you-need-in-2016/">cross-browser testing</a></strong> before. So I scrapped the idea all together and then just implemented a one column paintings page and just a brief significance about the painting. I also used a divider to give the paint separation so that there was a flow as someone was reading. I even did different stylesheet to give users the option to choose a different design if they want to. Also, looking back at this I realized that I could have left my main headings alllowercase letters and then just use a <strong>text-transform: uppercase</strong> to make them uppercase letters lol… but I'm too lazy to change it so it'll just have to stay.
+                </p>
+             </div>
+        </div>
+         
+    </div>
+
+         
+   <!-- /#page-content-wrapper -->
+
+    <!-- /#wrapper -->
+<!-- jQuery -->
+    <script src="https://blackrockdigital.github.io/startbootstrap-simple-sidebar/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://blackrockdigital.github.io/startbootstrap-simple-sidebar/js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script type="text/javascript">
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script type="text/javascript">
+$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+</script>
+
+
+</body>
+
+</html>
