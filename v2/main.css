@@ -1,0 +1,175 @@
+body, 
+html {
+height: 100%;
+width:100%;
+}
+
+body {
+ margin: 0;
+}
+    
+body {
+    height: 100%;
+    width: 100%;
+    background: url("img/background.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.72222;
+}
+
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #D99F71;
+    text-align: center;
+}
+
+.intro-header {
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.abcen {
+    position: absolute;
+    bottom: 8%;
+}
+
+.abcen1 {
+    position: absolute;
+    top: 20%;
+}
+
+h1 {
+font-size: 80px;    
+}
+
+.h1_home {
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-shadow: 0 0 5px rgba(255,255,255,.35), 0 3px 7px rgba(0,0,0,.35);
+}
+
+.h3_home {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: -60px;
+    text-shadow: 0 0 5px rgba(255,255,255,.35), 0 3px 7px rgba(0,0,0,.35);
+    margin-bottom: 50px;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+h1, h3 {
+    margin-top: 0px;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* other css */
+
+::-moz-selection {
+    background: #1abc9c;
+    color: white
+}
+
+::selection {
+    background: #1abc9c;
+    color: white
+}
+
+
+.btn {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    border-radius: 4px;
+    padding: 10px 15px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+}
+.mybutton_cyano {
+border: 1px solid #79191B;
+    color: #fff;
+    background-color: #79191B;
+    padding: 28px 47px;
+    font-size: 23px;
+    border-radius: 6px;
+    font-family: 'Raleway', serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-shadow: 0 0 5px rgba(255,255,255,.35), 0 3px 7px rgba(0,0,0,.35);
+}
+
+
+a {
+    color: #34495e;
+    text-decoration: none;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+a {
+    color: #34495e;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mybutton_standard {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.mybutton_cyano {
+    border: 1px solid #79191B;
+    color: #fff;
+    background-color: #79191B;
+}
+
+.mybutton_cyano:hover {
+    border: 1px solid #2980b9;
+    color: #fff !important;
+    background: #2980b9;
+}
+
+.button_down img {
+    width: 50px;
+}
+
+.btn-primary {
+    border-color: rgba(52, 73, 94, 0);
+}
+
+
+.noscroll {
+    overflow: hidden;
+}
+    </style>
